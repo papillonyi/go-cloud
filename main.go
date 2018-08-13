@@ -2,7 +2,7 @@ package main
 
 import (
 	"os"
-	service "./service"
+	service "github.com/papillonyi/go-cloud/service"
 )
 
 func main() {
