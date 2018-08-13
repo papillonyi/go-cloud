@@ -45,6 +45,6 @@ func TestCreateMatch(t *testing.T) {
 		t.Errorf("Expected response status 201, received %s", res.Status)
 	}
 
-	fmt.Println("Payload:  %s", string(payload))
+	fmt.Printf("Payload:  %s", string(payload))
 
 }
