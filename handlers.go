@@ -8,7 +8,7 @@ import (
 func createMatchHandler(formatter *render.Render) http.HandlerFunc {
 	return func(w http.ResponseWriter, req *http.Request) {
 		formatter.JSON(w,
-			http.StatusOK,
+			http.StatusCreated,
 				struct{ Test string}{"This is a test"})
 	}
 }
