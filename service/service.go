@@ -2,12 +2,12 @@ package service
 
 import (
 	"github.com/codegangsta/negroni"
-	"github.com/unrolled/render"
 	"github.com/gorilla/mux"
+	"github.com/unrolled/render"
 	"net/http"
 )
 
-func NewServer () *negroni.Negroni {
+func NewServer() *negroni.Negroni {
 
 	formatter := render.New(render.Options{
 		IndentJSON: true,

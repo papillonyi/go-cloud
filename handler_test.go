@@ -1,13 +1,13 @@
 package main
 
 import (
+	"bytes"
+	"fmt"
 	"github.com/unrolled/render"
-	"testing"
+	"io/ioutil"
 	"net/http"
 	"net/http/httptest"
-	"bytes"
-	"io/ioutil"
-	"fmt"
+	"testing"
 )
 
 var (

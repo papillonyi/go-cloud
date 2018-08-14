@@ -1,8 +1,8 @@
 package main
 
 import (
-	"os"
 	service "github.com/papillonyi/go-cloud/service"
+	"os"
 )
 
 func main() {
