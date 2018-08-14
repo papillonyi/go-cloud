@@ -9,4 +9,4 @@ pipeline:
       - echo $GOPATH
       - go get
       - go build
-      - go test
+      - go test -v $(glide novendor)
